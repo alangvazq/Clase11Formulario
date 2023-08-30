@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    position: sticky;
+    top: 0;
+
+    z-index: 2;
+}
+
+header p {
+    height: 23px;
+    background: #1CD1B0;
+
+    color: #000;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding-left: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    padding-left: 20px;
+}
+
+.Logo {
+    width: 100px;
+    height: 70px;
+
+    padding-left: 10px;
+}
+
+.Caja_logo {
+    height: 80px;
+    background: #00669F;
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 40px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+
+    padding-right: 20px;
+
+
+
+}
+
+.Caja_total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.Caja_imagenes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Fondo {
+    width: 75vw;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.Foto {
+    height: 25vw;
+    border-radius: 50%;
+
+    position: absolute;
+    z-index: 1;
+    margin-top: 40%;
+}
+
+.Caja_texto {
+    width: 75vw;
+    height: 45vh;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.Nombre {
+    color: #000;
+    /* text-align: center; */
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    line-height: 30px;
+    height: 30px;
+    /* Corregir a medida relativa */
+    margin-top: 8%;
+}
+
+.Parrafo {
+    color: #333;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Boton {
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 128px;
+    height: 4vh;
+    flex-shrink: 0;
+
+    border-radius: 7px;
+    background: #00669F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heart {
+    font-size: 2rem;
+    color: #cc2424;
+
+    position: absolute;
+    z-index: 1;
+
+    top: 14px;
+    left: 21px;
+}
+
+footer {
+    height: 60px;
+
+    background: #00669F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #FFF9F9;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Plus a {
+    font-size: 40px;
+    color: #00669F;
+    z-index: 3;
+
+    position: fixed;
+    right: 5px;
+    bottom: 45vh;
+}
+
+.Caja_form {
+    width: 954px;
+    height: 832px;
+
+
+    border-radius: 50px;
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.30);
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Titulo_form {
+
+    color: #FBFFFD;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.Parrafo_form {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+form {
+    width: 710px;
+    height: 575px;
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Caja_input {
+    width: 343px;
+    height: 102px;
+
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Caja_input input {
+    width: 343px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.Caja_input_foto {
+
+
+    width: 343px;
+    height: 102px;
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Caja_input_foto input {
+    margin-top: 20px;
+
+}
+
+textarea {
+    width: 343px;
+    height: 307px;
+    flex-shrink: 0;
+
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.Caja_check {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 307px;
+
+    margin-right: 170px;
+}
+
+.Caja_check p {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.5px;
+    /* 127.5% */
+}
+
+.Caja_check label {
+    color: #FFF;
+
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Boton_add {
+    width: 466px;
+    height: 87px;
+    flex-shrink: 0;
+
+    border-radius: 23.011px;
+    background: #1CD1B0;
+
+
+
+    color: #000;
+
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.874px;
+    /* 109.686% */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 820px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Caja_total {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .Caja_texto {
+        width: 36vw;
+        height: 30vh;
+    }
+
+    .Fondo {
+        width: 36vw;
+        flex-shrink: 0;
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    .Foto {
+        height: 11vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .Caja_texto {
+        width: 36vw;
+        height: 45vh;
+    }
+}
